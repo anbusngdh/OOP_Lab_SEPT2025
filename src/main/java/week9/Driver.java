@@ -10,6 +10,7 @@ package week9;
  */
 public class Driver {
 
+    ServiceStudent s_student = new ServiceStudent();
     public static void main(String[] args) {
         ServiceStudent s_student = new ServiceStudent();
         s_student.addStudent(new Student("Sam", 24, 56));
